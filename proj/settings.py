@@ -44,7 +44,8 @@ INSTALLED_APPS = [
 ]
 
 COURSE_APPS = [
-
+    'course',
+    'payment'
 ]
 
 INSTALLED_APPS = INSTALLED_APPS + COURSE_APPS
