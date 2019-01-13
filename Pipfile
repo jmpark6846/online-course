@@ -10,6 +10,7 @@ django = "*"
 python-dotenv = "*"
 djangorestframework = "*"
 pendulum = "*"
+mysqlclient = "*"
 
 [requires]
 python_version = "3.7"
