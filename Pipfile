@@ -11,6 +11,7 @@ python-dotenv = "*"
 djangorestframework = "*"
 pendulum = "*"
 mysqlclient = "*"
+django-cors-headers = "*"
 
 [requires]
 python_version = "3.7"
