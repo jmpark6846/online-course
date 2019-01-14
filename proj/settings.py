@@ -93,8 +93,11 @@ DATABASES = {
         'NAME': os.environ['MYSQL_DATABASE'],
         'USER': os.environ['MYSQL_USER'],
         'PASSWORD': os.environ['MYSQL_PASSWORD'],
-        'CHARSET': 'UTF8'
-    }
+        'CHARSET': 'UTF8',
+        'OPTIONS':{
+            'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"
+        }
+    },
 }
 
 
